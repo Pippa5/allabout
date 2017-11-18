@@ -1,0 +1,228 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 875px;
+  margin: auto;
+}
+
+/* =============== banner =============== */
+
+.banner {
+  display: flex;
+  background-color: rgba(69, 105, 73,.25);
+  height: 426px;
+}
+
+.title h1 {
+  border-left: 3px solid #456949;
+  border-right: 3px solid #456949;
+  font-family: 'dancing script', cursive;
+  font-size: 40px;
+  margin-top: 75px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-style: heavy;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
+
+.title h2 {
+  font-family: 'playfair display', serif;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+
+    
+}
+
+/* =============== navigation bar =============== */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  background-color: #ffdbbc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'playfair display', serif;
+  color: black;
+}
+
+nav a:hover {
+  color: #456949;
+}
+
+/* ==================== content =============== */
+
+.pquote {
+  margin-top: 15px;
+  float: right;
+  width: 325px;
+  font-style: italic;
+  margin: 0px 10px;
+  border-top: 5px solid #456949;
+  border-bottom: 5px solid #456949;
+  padding: 10px;
+  background-color: #ffdbbc;
+  font-size: 18px;
+}
+
+#quote {
+  font-style: normal;
+  float: right;
+}
+
+h2 {
+  font-family: 'playfair display', serif;
+  text-align: left;
+}
+
+.main-one {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.main-two {
+  float: right;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+.row {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.col {
+    width: 100;
+    margin-right: 20px;
+}
+
+/* =============== footer =============== */
+
+.footer p {
+  text-align: center;
+  border-top: 3px solid #456949;
+  border-bottom: 3px solid #456949;
+  background-color: rgba(69, 105, 73,.25);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* =============== end of index page =============== */
+
+/* =============== quotations page =============== */
+
+.para-quotes {
+  line-height; 1.45;
+}
+
+.magazine {
+  font-style: italic;
+}
+
+blockquote {
+  font-size: 16px;
+  width: 500px;
+  line-height: 1.45;
+  padding: 20px;
+  text-align: center;
+  border-left: 3px solid #456949;
+  border-bottom: 1px solid #456949;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.sayings {
+  font-family: 'playfair display', serif;
+  margin-bottom: 20px;
+}
+
+.speaker {
+  font-size: 18x;
+  color: #456949;
+  display: block;
+}
+
+.skin {
+  background-color: #ffdbbc;
+}
+
+/* =============== contact page =============== */
+
+.row-contact {
+  display: flex;
+  padding-bottom: 15px; /*this targets the area below each row*/
+}
+
+.col-contact {
+  width: 100%;
+  padding-right: 10px; /*this targets the first name and email rows*/
+  padding-left: 10px;
+  
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  padding: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+button {
+  font-size: 16px;
+  background-color: #ffdbbc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  margin: 4px; 2px;
+}
+
+/* ===== the end ====== */
